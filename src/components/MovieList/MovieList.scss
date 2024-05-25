@@ -1,0 +1,39 @@
+@import url(../Login/Login.scss);
+@import url(../Header/Header.scss);
+
+$NetflixSansLight: 'NetflixSansLight';
+$NetflixSansMedium: 'NetflixSansMedium';
+$NetflixSansBold: 'NetflixSansBold';
+$transparent-black: rgba(0,0,0,0.85);
+$transparent-black-1: rgba(0,0,0,0.9);
+
+.movies-cards-1
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 0;
+    padding: 0 1rem;
+}
+.splide 
+{
+    width: 100%;
+}
+.title-h1
+{
+    font-family: $NetflixSansMedium;
+    font-size: 2rem;
+    padding:0 1.5rem;
+}
+@media screen and (max-width:650px)
+{
+    .movies-cards-1
+    {
+        margin: 1.2rem 0;
+    }
+    .title-h1
+    {
+        font-size: 1.5rem;
+        margin-bottom: -0.2rem;
+    }
+}

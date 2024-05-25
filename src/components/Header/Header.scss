@@ -1,0 +1,37 @@
+.header 
+{
+    background: linear-gradient(to bottom, #000000, transparent);
+    padding-top: 1.2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.netflix-logo 
+{
+    width: 12rem;
+}
+.header-select 
+{
+    background-color: rgba(0,0,0,0.5);
+    color:white;
+    padding:0.5rem;
+}
+@media screen and (max-width: 500px)
+{
+    .netflix-logo 
+    {
+        width: 9rem;
+    }
+    .header
+    {
+        padding-top: 1.5rem;
+        padding-left: 1rem;
+        margin: 0;
+        // border:2px solid red;
+        width: 100vw;
+    }
+}
